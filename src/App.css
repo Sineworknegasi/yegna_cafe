@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --brown: #b68834;
+    --font_pop: 'Poppins', sans-serif;
+    --font_italy: 'Italianno', cursive;
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #5e4009;
+    border-radius: 10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+p {
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.62em;
+}
+
+body {
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.62em;
+}
+p {
+    margin-bottom: 0px;
+}
+.text_brown {
+    color: #b68834;
+}
+.text-pop {
+    font-family: var(--font_pop);
+}
+.text-italy {
+    font-family: var(--font_italy);
+}
+.section-gap {
+    padding: 120px 0;
+}
+.pb-60 {
+    padding-bottom: 60px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.pb-20 {
+    margin-bottom: 20px;
+}
